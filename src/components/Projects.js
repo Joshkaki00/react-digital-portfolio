@@ -9,14 +9,16 @@ const Projects = () => {
       title: 'Spotify and MET API Web App',
       description: 'A web application that integrates Spotify and MET API to display artwork based on user’s moods and taste',
       image: img1,
-      tags: ['Python', 'Node.js', 'Flask', 'Spotify API', 'MET API', 'Tailwind CSS']
+      tags: ['Python', 'Node.js', 'Flask', 'Spotify API', 'MET API', 'Tailwind CSS'],
+      link: 'https://github.com/lawrence-ivan-reyes/acs-2930-artsonix'
     },
     {
       id: 2,
       title: 'Weather App',
       description: 'Real-time weather application using OpenWeather API and HTML/CSS',
       image: img2,
-      tags: ['Python', 'Flask', 'OpenWeather API', 'HTML', 'CSS']
+      tags: ['Python', 'Flask', 'OpenWeather API', 'HTML', 'CSS'],
+      link: 'https://github.com/Joshkaki00/Homework-4-Assignment'
     },
   ];
 
@@ -28,18 +30,23 @@ const Projects = () => {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div
+            <a 
               key={project.id}
-              className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-                loading='lazy'
-              />
+              <div className="relative">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-10 transition-opacity"></div>
+              </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400">
                   {project.title}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
@@ -56,7 +63,7 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
