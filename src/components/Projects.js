@@ -12,7 +12,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'Weather App',
-      description: 'Real-time weather application using OpenWeather API and React',
+      description: 'Real-time weather application using OpenWeather API and HTML/CSS',
       image: '/api/placeholder/600/400',
       tags: ['Python', 'Flask', 'OpenWeather API', 'HTML', 'CSS']
     },
