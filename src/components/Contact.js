@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     
     // Create mailto link with form data
-    const mailtoLink = `mailto:josh.kakinuki@students.dominican.edu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:jlk366business@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
     )}`;
     
