@@ -10,7 +10,7 @@ const About = () => (
         About Me
       </h2>
       <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-        Hello! I am currently a third-year Applied Computer Science (ACS) student at Dominican University of California (DUC). I previously attended UC Merced and recently transferred to a university closer to my home. I currently have some experience in computer programming and front-end web development. I aim to work hard and excel in the ACS Program at DUC.
+        Hello! I am currently a third-year Applied Computer Science (ACS) student at Dominican University of California (DUC). I previously attended UC Merced and transferred to a university closer to my home. I currently have some experience in computer programming and front-end web development. I aim to work hard and excel in the ACS Program at DUC.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <img 
