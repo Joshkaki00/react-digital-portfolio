@@ -8,7 +8,7 @@ const Home = ({ setActiveSection }) => (
       className="w-40 h-40 rounded-full object-cover border-4 border-indigo-500 mb-8"
     />
     <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-800 dark:text-white mb-4">
-      John Doe
+      Joshua Kakinuki
     </h1>
     <h2 className="text-xl md:text-2xl font-semibold text-indigo-600 dark:text-indigo-400 text-center mb-6">
       Full Stack Developer

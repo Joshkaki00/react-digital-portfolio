@@ -5,10 +5,10 @@ const Navigation = ({ activeSection, setActiveSection }) => (
     <div className="max-w-6xl mx-auto px-4">
       <div className="flex justify-between items-center py-4">
         <div className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-          John Doe
+          Joshua Kakinuki
         </div>
         <div className="hidden md:flex space-x-10">
-          {['home', 'projects', 'skills', 'contact'].map((item) => (
+          {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
             <button
               key={item}
               className={`text-gray-600 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400 capitalize ${
