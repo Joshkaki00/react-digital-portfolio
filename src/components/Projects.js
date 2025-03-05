@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'Spotify and MET API Web App',
       description: 'A web application that integrates Spotify and MET API to display artwork based on user’s moods and taste',
       image: img1,
-      tags: ['Python', 'Node.js', 'Flask', 'Spotify API', 'MET API', 'Tailwind CSS'],
+      tags: ['Python', 'Node.js', 'Flask', 'Spotify Web API', 'MET API', 'Tailwind CSS'],
       link: 'https://github.com/lawrence-ivan-reyes/acs-2930-artsonix'
     },
     {
