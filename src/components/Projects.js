@@ -16,13 +16,6 @@ const Projects = () => {
       image: '/api/placeholder/600/400',
       tags: ['Python', 'Flask', 'OpenWeather API', 'HTML', 'CSS']
     },
-    {
-      id: 3,
-      title: 'Task Management System',
-      description: 'Productivity tool for teams with drag-and-drop functionality',
-      image: '/api/placeholder/600/400',
-      tags: ['React', 'Redux', 'Firebase', 'Material UI']
-    }
   ];
 
   return (
