@@ -4,17 +4,17 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Website',
-      description: 'A full-stack e-commerce platform with React, Node.js, and MongoDB',
+      title: 'Spotify and MET API Web App',
+      description: 'A web application that integrates Spotify and MET API to display artwork based on user’s moods and taste',
       image: '/api/placeholder/600/400',
-      tags: ['React', 'Node.js', 'MongoDB', 'Express']
+      tags: ['Python', 'Node.js', 'Flask', 'Spotify API', 'MET API', 'Tailwind CSS']
     },
     {
       id: 2,
       title: 'Weather App',
       description: 'Real-time weather application using OpenWeather API and React',
       image: '/api/placeholder/600/400',
-      tags: ['React', 'API Integration', 'Tailwind CSS']
+      tags: ['Python', 'Flask', 'OpenWeather API', 'HTML', 'CSS']
     },
     {
       id: 3,

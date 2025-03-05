@@ -13,9 +13,9 @@ const Home = ({ setActiveSection }) => (
     <h2 className="text-xl md:text-2xl font-semibold text-indigo-600 dark:text-indigo-400 text-center mb-6">
       Full Stack Developer
     </h2>
-    <p className="text-lg text-gray-600 dark:text-gray-300 text-center max-w-2xl mb-8">
-      Passionate web developer with expertise in creating responsive, user-friendly applications.
-      Specialized in modern JavaScript frameworks and full-stack development.
+    <p className="text-lg text-gray-600 dark:text-gray-300 text-left max-w-2xl mb-8">
+      Passionate web developer and software with expertise in creating responsive, user-friendly applications.
+      Specialized in Python, JavaScript, C++ and other programming languages and full-stack development.
     </p>
     <div className="flex space-x-4">
       <button
