@@ -1,4 +1,6 @@
 import React from 'react';
+import img1 from '../assets/images/ArtSonix.jpg';
+import img2 from '../assets/images/Weather-App.jpg';
 
 const Projects = () => {
   const projects = [
@@ -6,14 +8,14 @@ const Projects = () => {
       id: 1,
       title: 'Spotify and MET API Web App',
       description: 'A web application that integrates Spotify and MET API to display artwork based on user’s moods and taste',
-      image: '/api/placeholder/600/400',
+      image: img1,
       tags: ['Python', 'Node.js', 'Flask', 'Spotify API', 'MET API', 'Tailwind CSS']
     },
     {
       id: 2,
       title: 'Weather App',
       description: 'Real-time weather application using OpenWeather API and HTML/CSS',
-      image: '/api/placeholder/600/400',
+      image: img2,
       tags: ['Python', 'Flask', 'OpenWeather API', 'HTML', 'CSS']
     },
   ];

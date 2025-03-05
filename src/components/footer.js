@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-600 dark:text-gray-400 mb-4 md:mb-0">
-            © {currentYear} John Doe. All rights reserved.
+            © {currentYear} Joshua Kakinuki. All rights reserved.
           </div>
             {/* GitHub Link */}
           <div className="flex space-x-6">
