@@ -17,16 +17,19 @@ const About = () => (
           src={img1}
           alt="Me" 
           className="w-full h-64 object-cover rounded-lg shadow-md"
+          loading='lazy'
         />
         <img 
           src={img2}
           alt="University of California Merced Seal" 
           className="w-full h-64 object-contain rounded-lg shadow-md"
+          loading='lazy'
         />
         <img 
           src={img3}
           alt="Dominican University of California Seal" 
           className="w-full h-64 object-contain rounded-lg shadow-md"
+          loading='lazy'
         />
       </div>
     </div>
