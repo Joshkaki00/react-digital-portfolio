@@ -7,6 +7,7 @@ const Home = ({ setActiveSection }) => (
       src={img1}
       alt="Profile"
       className="w-40 h-40 rounded-full object-cover border-4 border-indigo-500 mb-8"
+      loading='lazy'
     />
     <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-800 dark:text-white mb-4">
       Joshua Kakinuki
