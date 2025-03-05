@@ -36,6 +36,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover"
+                loading='lazy'
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">
