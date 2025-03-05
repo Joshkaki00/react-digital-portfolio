@@ -1,9 +1,10 @@
 import React from 'react';
+import img1 from '../assets/images/IMG_0515.jpg';
 
 const Home = ({ setActiveSection }) => (
   <section className="min-h-screen flex flex-col justify-center items-center py-16 px-4">
     <img
-      src="/api/placeholder/200/200"
+      src={img1}
       alt="Profile"
       className="w-40 h-40 rounded-full object-cover border-4 border-indigo-500 mb-8"
     />
